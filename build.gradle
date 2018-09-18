@@ -1,0 +1,32 @@
+buildscript {
+    ext {
+        KOTLIN_VERSION = "1.2.70"
+    }
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${KOTLIN_VERSION}"
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.20.0'
+    }
+}
+
+apply plugin: "kotlin"
+apply plugin: "application"
+apply plugin: "com.github.ben-manes.versions"
+
+mainClassName = "org.ethereum.lists.tokens.MainKt"
+
+repositories {
+    jcenter()
+    maven { url 'https://jitpack.io' }
+    maven { url "https://kotlin.bintray.com/kotlinx" }
+}
+
+
+dependencies {
+    compile 'com.squareup.moshi:moshi-kotlin:1.6.0'
+}
+

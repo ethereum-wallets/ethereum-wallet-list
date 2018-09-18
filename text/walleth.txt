@@ -1,0 +1,13 @@
+WallETH Ethereum Wallet
+Features:
+ - Networks main, ropsten, rinkeby, kovan
+ - Tokens (ERC-20)
+ - ERC-67 / ERC-681 URLS
+ - ERC-55 Checksums 
+ - TREZOR Support (via USB-OTG - model 1 and model T)
+ - watch only accounts 
+ - wallet connect suport
+ - offline signing
+ - JSON UTC key import/export
+ - display value in fiat like EUR, NZD, USD, .. or MakerDAO DAI 
+ - display function

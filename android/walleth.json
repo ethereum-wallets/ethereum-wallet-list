@@ -1,0 +1,26 @@
+{
+  "name": "WallETH",
+  "package_name": "org.walleth",
+  "short_description": "Ethereum Wallet with support for watch only accounts, ERC-20 Tokens, TREZOR, ...",
+  "icon": "walleth.png",
+  "license": "GPLv3",
+  "root_commit": "ea7c87dcd2383a4df7b032fe2c5e03d57a49bec3",
+  "github": "https://github.com/walleth/walleth",
+  "mnemonic_import": true,
+  "networks": [
+    "main",
+    "rinkeby",
+    "kovan",
+    "ropsten"
+  ],
+  "multisig": false,
+  "erc20": true,
+  "custom_erc20": true,
+  "mnemonic_export": false,
+  "dapp_browser": false,
+  "had_ico": false,
+  "long_description_file": "walleth.txt",
+  "website": "https://walleth.org",
+  "peepeth": "walleth",
+  "twitter": "wallethapp"
+}
