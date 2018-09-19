@@ -1,6 +1,7 @@
 {
   "name": "WallETH",
   "package_name": "org.walleth",
+  "version_code":424,
   "distribution": [
     "PLAY",
     "FDROID"
