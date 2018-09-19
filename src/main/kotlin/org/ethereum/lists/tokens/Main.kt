@@ -6,7 +6,11 @@ import kotlin.system.exitProcess
 
 enum class Distribution {
     PLAY,
-    FDROID
+    FDROID,
+    VIVO,
+    OPPO,
+    XIAOMI,
+    QQ
 }
 
 data class AndroidWallet(
