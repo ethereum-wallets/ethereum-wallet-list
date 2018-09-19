@@ -1,0 +1,12 @@
+imToken 2.0 - Your Trusted Bitcoin & Ethereum Wallet
+Features:
+ - Multi-chain wallets (BTC, ETH, EOS) 
+ - Built-in decentralized exchange 
+ - DApp browser 
+ - Multiple languages
+ - Cold wallet feature/offline signing
+ - display value in fiat like EUR, NZD, USD
+ - JSON UTC key import/export
+ - Tokens (ERC-20, ERC-721)
+ - ERC-67 URLS
+ - ERC-55 Checksums
