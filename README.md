@@ -83,7 +83,7 @@ MIT
  * ethereum_signed_message  - boolean
  * long_description_file  - boolean
  * website - string
- * peepet - string - e.g. walleth,
+ * peepeth - string - e.g. walleth,
  * twitter - string wallethapp
  * trezor_support  - boolean
  * leger_support  - boolean
