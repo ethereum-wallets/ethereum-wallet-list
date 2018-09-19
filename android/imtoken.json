@@ -1,0 +1,37 @@
+{
+  "name": "imToken",
+  "package_name": "im.token.app",
+  "distribution": [
+    "PLAY",
+    "VIVO",
+    "OPPO",
+    "XIAOMI",
+    "QQ"
+  ],
+  "short_description": "Wallet app with decentralized exchange, DApp Browser and cold wallet feature.",
+  "icon": "imtoken.png",
+  "support_email":"support@consenlabs.com",
+  "license": "",
+  "root_commit": "",
+  "github": "https://github.com/consenlabs",
+  "mnemonic_import": true,
+  "networks": [
+    "main",
+    "kovan"
+  ],
+  "multisig": false,
+  "erc20": true,
+  "custom_erc20": false,
+  "mnemonic_export": true,
+  "dapp_browser": true,
+  "had_ico": false,
+  "erc-681": false,
+  "erc-67": false,
+  "ethereum_signed_message": true,
+  "trezor_support": false,
+  "leger_support": false,
+  "long_description_file": "imtoken.txt",
+  "website": "https://token.im",
+  "peepeth": "",
+  "twitter": "imTokenOfficial"
+}
