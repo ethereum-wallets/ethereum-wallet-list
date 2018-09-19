@@ -4,9 +4,15 @@ import com.squareup.moshi.Moshi
 import java.io.File
 import kotlin.system.exitProcess
 
+enum class Distribution {
+    PLAY,
+    FDROID
+}
+
 data class AndroidWallet(
         val name: String?,
         val package_name: String?,
+        val distribution: List<Distribution>?,
         val icon: String?,
         val short_description: String?,
         val long_description_file: String?,
