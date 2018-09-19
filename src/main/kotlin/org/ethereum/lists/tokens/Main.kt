@@ -10,7 +10,8 @@ enum class Distribution {
     VIVO,
     OPPO,
     XIAOMI,
-    QQ
+    Baidu,
+    Tencent
 }
 
 data class AndroidWallet(
