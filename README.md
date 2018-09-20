@@ -11,19 +11,6 @@ It is a collection of data about multiple wallets. So users can easily compare t
 
 ## Android
 
- * package-name (must be found with this package-name on all distributions)# What is it?
-
-It is a collection of data about multiple wallets. So users can easily compare them and libraries can resolve wallets matching certain constraints for users.
-
-# Mandatory fields
-## Common
-
- * name - (max 10 characters)
- * short description - (max 80 characters)
- * icon - file that exists in images/128x128 and images/large
-
-## Android
-
  * package_name (must be found with this package-name on all distributions)
  * version_code (positive number - most recent version code - needed so if feature was introduced in a version - then libraries can know if the current version supports this feature or should redirect to the store for an update)
  * distributions - list of (PLAY, FDROID, VIVO, OPPO, XIAOMI, BAIDU, TENCENT)
