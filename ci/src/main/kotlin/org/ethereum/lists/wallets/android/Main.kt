@@ -19,8 +19,8 @@ fun main(args: Array<String>) {
             error("name too long - max 10 chars")
         }
 
-        val package_name = wallet.package_name ?: error("needs to contain package name")
-        if (!package_name.contains(".")) {
+        val packageName = wallet.package_name ?: error("needs to contain package name")
+        if (!packageName.contains(".")) {
             error("package name needs to contain a dot")
         }
 
