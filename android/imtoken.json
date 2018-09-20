@@ -1,6 +1,7 @@
 {
   "name": "imToken",
   "package_name": "im.token.app",
+  "version_code":209,
   "distribution": [
     "PLAY",
     "VIVO",
