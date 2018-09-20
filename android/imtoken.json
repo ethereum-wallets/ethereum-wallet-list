@@ -1,12 +1,14 @@
 {
   "name": "imToken",
   "package_name": "im.token.app",
+  "version_code":209,
   "distribution": [
     "PLAY",
     "VIVO",
     "OPPO",
     "XIAOMI",
-    "QQ"
+    "BAIDU",
+    "TENCENT"
   ],
   "short_description": "Wallet app with decentralized exchange, DApp Browser and cold wallet feature.",
   "icon": "imtoken.png",
