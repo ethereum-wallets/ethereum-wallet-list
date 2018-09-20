@@ -6,5 +6,6 @@ enum class Distribution {
     VIVO,
     OPPO,
     XIAOMI,
-    QQ
+    BAIDU,
+    TENCENT
 }
