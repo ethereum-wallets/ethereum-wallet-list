@@ -5,7 +5,7 @@ import org.ethereum.wallets.android.model.AndroidWallet
 import java.io.File
 import kotlin.system.exitProcess
 
-fun main(args: Array<String>) {
+fun main() {
     val moshi = Moshi.Builder().build()
     val rootPath = File("..")
     File(rootPath, "android").listFiles().filter { !it.name.endsWith("~") }.forEach {
